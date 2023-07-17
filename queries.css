@@ -1,0 +1,129 @@
+@media(max-width:1200px){
+    .hero-section{
+       width: 100%;
+       padding: 0 2%;
+    }
+    .row{
+       padding: 0 2%;
+    }
+}
+@media(max-width:780px){
+    .logo img{
+       height: 23px;
+    }
+    .body{
+        font-size: 16px;
+    }
+    .main-menu  {
+      display: none;
+    }
+    .hero-section h1{
+        font-size: 24px;
+      
+    } 
+    .btn-hunger{
+      padding:5px 10px !important;
+      
+      font-size: 16px !important;
+    }
+    .btn-show{
+        padding:5px 10px !important;
+      
+        font-size: 16px !important;
+    }
+    .row, .hero-section{
+        padding: 0 4%;
+    }
+    .col , .col-1 , .row-plan, .plan-box{
+        width: 100%;
+    }
+    .col-1 h1{
+        color: white;
+    }
+    .row h4{
+        font-size: 14px;
+    }
+    .icons{
+        font-size :28px;
+    }
+    .meal-photo img{
+        height: 70px;
+    }
+    .row h1{
+        font-size: 20px;
+    }
+    .work-steps div , p{
+        color: black !important;
+        font-size: 14px;
+
+    }
+    .work-steps div{
+        font-size: 50%;
+    }
+    .btn-app img{
+     margin: 0;
+        width: 80px;
+    }
+    .col img{
+        margin: 0;
+        margin-right: 20px;
+         
+    }
+    .col h3{
+        font-size: 100%;text-align: center;
+    }
+    .city-feature{
+        font-size: 12px;
+        text-align: center;
+    }
+ .col-1 p  {
+        font-size: 13px;
+        margin: 0;
+    }
+    .col-1 img{
+        width: 40px;
+        margin: 0;
+    }
+    .row-plan{
+        margin: 10px 10px;
+    }
+    .plan-box{
+        padding: 10px;
+        font-size: 70%;
+    }
+    .section-form{
+        font-size: 50%;
+    }
+    .footer{
+        font-size: 70%;
+    }
+    .mobile-nav-icon{
+        display: inline-block;
+
+    }
+    .main-menu{
+        float: left;
+        margin-top: 25px;
+        margin-left: 25px;
+    }
+    .main-menu ul li{
+        display: block;
+    }
+    .main-menu li a:link , .main-menu li a:visited{
+        display: block;
+        border: 0;
+        padding: 5px 0;
+    }
+
+
+    }
+
+    @media only screen and (max-width: 480px) {
+        section {
+        padding:25px 0;
+        }
+        .contact-form {
+        width: 100%;
+        }
+        }
+        
