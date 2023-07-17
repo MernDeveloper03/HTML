@@ -1,0 +1,501 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ffffff;
+    color: #000000 ;
+    font-family: Arial, Helvetica, sans-serif  ;
+    font-weight: 300;
+    font-size:20px;
+    text-rendering: optimizeLegibility;
+}
+
+.header{
+    background-image: linear-gradient(rgba(0,0,0,0.585),#000), url("./lily-banse--YHSwy6uqvk-unsplash.jpg") ;
+    height: 100vh;
+    width: 100%; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+
+}
+.hero-section{
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.hero-section h1{
+    margin: 0;
+    font-size: 200%;
+    font-weight: 300;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+    text-transform: uppercase;
+    color: white;
+
+}
+ 
+.btn{
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 180, 68);
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.btn-show{
+    background-color: transparent;
+    border:2px solid rgb(255, 180, 68);
+    color: rgb(255, 180, 68);
+}
+
+
+.btn:link , .btn:visited{
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background-color 0.2s, border 0.2s , color 0.2s; 
+}
+.btn-hunger:link,
+.btn-hunger:visited{
+    background-color:rgb(255, 180, 68) ;
+    border: 2px solid rgb(255, 180, 68);
+    color: #ffffff;
+}
+.btn-show:link, .btn-show:visited{
+    border: 2px solid rgb(255, 180, 68);
+    color: rgb(255, 180, 68);
+
+}
+.btn:hover{
+    background-color: rgb(255, 180, 68);
+}
+.btn-hunger:hover, .btn-hunger:active {
+    border: 2px solid rgb(255, 255, 255);
+}
+.btn-show:hover{
+    border: 2px solid rgb(255, 180, 68);
+    color: #ffffff;
+}
+ 
+ 
+.logo{
+    float: left;
+    margin: 20px;
+}
+.logo img{
+    height: 50px;
+}
+.main-menu{
+    float: right;
+    padding: 20px;
+  
+   
+}
+.main-menu >ul >li {
+    list-style-type: nxone;
+    text-decoration: none;
+    display: inline-block;
+    margin-left:  40px;
+}
+.main-menu> ul >li >a{
+    color: white;
+    text-decoration: none;
+    position: relative;
+    padding: 10px;
+}
+
+.main-menu > ul >a:link , .main-menu > ul >a:visited{
+    color: white;
+}
+.main-menu >ul >a:hover{
+    background-color: transparent;
+    color:rgb(255, 180, 68) ;
+    border-radius: 20px;
+     
+}
+.features h1 , p {
+    text-align: center;
+}
+.title{
+    display: block;
+    display: center;
+    align-content: center;
+}
+ 
+.title h1{
+    text-align: center; 
+    text-transform: uppercase;
+    word-spacing: 3px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    
+
+}
+.title h1:after{
+    display: block;
+    content: "";
+    width: 20%;
+    border: 3px solid rgb(255, 180, 68);
+    margin: 20px auto;
+}
+.long-copy{
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+    padding-bottom: 20px;
+ 
+}
+
+.icons{
+    font-size: 300%;
+    color: rgb(255, 180, 68) ;
+    margin: 20px 0;
+}
+.row{
+    width: 100%;
+   
+  
+}
+.col{
+  
+    width: 25%;
+    float: left;
+    margin: 30px 0;
+    padding: 0 10px;
+}
+.section-meals{
+    margin: 50px 0;
+    padding: 0;
+    
+}
+.meals-showcase{
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+}
+.meals-showcase li{
+    float: left;
+    width: 25%;
+}
+.meal-photo{
+    margin: 0;
+    overflow: hidden;
+    width: 100%;
+    background: #ffffff;
+    
+    
+}
+.row h1{
+    text-align: center;
+    margin-top: 100px;
+  
+}
+.meal-photo img{
+    width: 100%;
+    transform: scale(1.15);
+    transition: transform 0.5s , opacity 0.5s;
+    opacity: 0.7;
+    
+}
+.meal-photo:hover{
+    transform: scale(1.03);
+    opacity: 1 !important;
+}
+.section-steps{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 100%;
+   
+}
+
+.steps-box:first-child{
+    margin-top:50px ;
+    text-align: right;
+    padding-right: 100px;
+
+}
+.steps-box:last-child{
+width: 70%;
+    margin-top: 100px;
+    padding-left: 60px;
+
+}
+ 
+.work-step{
+    margin-bottom: 50px;
+}
+ 
+.work-step div{
+    display: inline-block;
+    font-size: 200%;
+    color:rgb(255, 180, 68);
+    border: 3px solid rgb(255, 180, 68) ;
+    border-radius: 50%;padding: 5px;
+    text-align: center;
+    float:left;
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+
+}
+.work-step:last-child{
+    margin-bottom: 100px;
+}
+
+.clearfix:after{
+    content: '';
+    clear: both;
+    display:block;
+    height: 0;
+    visibility: hidden;
+
+}
+.box img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+.box h3{
+    font-size: 150%;
+    text-transform: uppercase;
+}
+.city-feature{
+    margin-bottom: 10px;
+}
+.icon-small{
+    display: inline-block;
+    width: 30px;
+    height: auto;
+    color: coral;
+    font-size: 120%;
+    margin-right: 10px;
+    padding: 10px 0;
+}
+.a{
+    text-decoration: none ;
+}
+.a:link , .a:visited{
+    color: coral;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid coral;
+    transition: border-bottom 02s, 0.2s;
+}
+.a:hover ,a:active{
+    color: darkslategray;
+    border-bottom: 1px solid transparent;
+}
+.testimonial-section{
+   width: 100%;
+   background-image: linear-gradient(rgba(0,0,0,0.587),#000),url('./food2.jpg') ;
+   height:auto;
+   color: rgb(0, 0, 0);
+   padding: 10px ; 
+   background-size: center;
+   background-position: cover;
+   background-repeat: no-repeat;
+ 
+ 
+}
+.col-1{
+    color: black;
+}
+.testimonial-3{
+    width: 100%;
+    margin: 0 auto;
+   padding: 0 10px;
+   color: black;
+  
+}
+
+.test-pic img{
+    display: inline-block;
+    width: 100px;
+    height: auto;
+ 
+
+}
+.test-pic h4{
+    display: inline-block;
+    width: 50%;
+}
+ 
+.col-1{
+  
+    width: 33%;
+    float: left;
+   
+    padding:  10px;
+}
+.plan-section{
+    background-color: #ffffff;
+    height: auto;
+    margin-top: -100px;
+    
+  
+}
+.plan-box{
+    width: 33%;
+    float: left;
+    
+}
+.row-plan{
+    width: 80%;
+    margin: 0 auto; 
+    
+}
+.first-box{
+    background:#f7f9fa ;
+    margin:0 5px ;
+    padding: 20px 30px;
+    
+}
+.first-box h3{
+    font-size: 100%;
+    font-weight: 100;
+    text-transform: uppercase;
+}
+.plan-price{
+    font-size: 300%;
+    color: coral;
+     
+}
+.plan-price span{
+    font-size: 30%;
+}
+ .second-box{
+    background-color: rgb(255, 255, 255);
+    margin:0 5px ;
+    padding: 20px 10px;
+ }
+.second-box ul li{
+    list-style: none;
+    
+}
+.check-icon{
+    font-size: 10px;
+    padding:5px 10px;
+    color: coral;
+}
+.third-box{
+    border-top: solid thin gray;
+    padding: 30px 10px;
+    text-align: center;
+    background-color: white;    
+    margin:0 5px ;
+   
+
+
+}
+.plan-button{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: 1px solid black;
+    background-color: coral;
+    cursor: pointer;
+    /* width: 200px; */
+   border-radius: 30px;
+   
+}
+
+.contact-form{
+    width: 60%;
+    margin: 0 20% ;
+}
+input[type=text], 
+input[type=email],
+select,
+textarea{
+    width:100%;
+    padding: 7px;
+    border-radius:3px;
+    border: 1px solid coral;
+    margin: 10px;
+}
+textarea{
+    height: 100px;
+    
+}
+input[type=checkbox]{
+    margin: 10px 5px 10px 0;
+
+}
+*:focus{
+    outline:none
+}
+.col3{
+    width: 50%;
+    float: left;
+}
+
+
+.footer{
+    background-color: #333333;
+    padding: 50px;
+    margin-top: 20px;
+}
+.footer-nav{
+    list-style-type: none;
+    float: left;
+}
+.social-links{
+    list-style: none;
+    float: right;
+}
+.footer-nav li, .social-links li{
+    display:inline-block;
+    margin-right: 20px;
+}
+.footer-nav li:last-child{
+    margin-right:0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social-links li a:link,
+.social-links li a:link{
+    text-decoration: none;
+    border: 0;
+    color: #555555;
+    transition: color 0.2s;
+}
+.footer-nav li a:hover,
+.footer-nav li a:active{
+    color:#ffffffff
+}
+
+.social-links li a:link,
+.social-links li a:visited{
+    font-size:180%;
+}
+.check-icon{
+    color: greenyellow;
+    font-size: 200%;
+}
+.check-icon1:hover{
+    color: blue;
+}
+.row p{
+    color: white;
+}
+
+
+ .mobile-nav-icon {
+ float: right;
+     margin-top: 30px;
+    cursor: pointer;
+    font-size: 200%;
+    color: white;
+    display: none;
+
+}
+   
